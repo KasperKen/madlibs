@@ -1,5 +1,5 @@
 const chooseRandom = (array) => {
-  const index = Math.floor(Math.Random() * array.length);
+  const index = Math.floor(Math.random() * array.length);
   return array[index];
 };
 
