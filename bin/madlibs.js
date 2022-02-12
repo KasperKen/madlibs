@@ -1,5 +1,3 @@
-const nouns = require('../lib/nouns');
-const verbs = require('../lib/verbs');
+const { sentences } = require('../lib/sentences');
 
-console.log("noun: " + nouns.randomNoun('person'));
-console.log("verb: " + verbs.randomVerb('gerundVerbs'));
+sentences.logRandomSentence();
